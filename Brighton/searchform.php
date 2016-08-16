@@ -1,12 +1,4 @@
-<?php
-/**
- * Template for displaying search forms in Brighton
- *
- * @package WordPress
- * @subpackage Brighton
- * @since Brighton 1.0
- */
-?>
+<?php ?>
 
 <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 	<label>

@@ -37,6 +37,9 @@
 	<meta name="msapplication-square150x150logo" content="images/mediumtile.png" />
 	<meta name="msapplication-wide310x150logo" content="images/widetile.png" />
 	<meta name="msapplication-square310x310logo" content="images/largetile.png" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin-ext" rel="stylesheet">
+    
 </head>
 
 <body <?php body_class(); ?>>

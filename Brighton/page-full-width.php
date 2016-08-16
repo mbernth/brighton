@@ -1,6 +1,11 @@
+<?php 
+	/*
+	Template Name: Full Width
+	*/ 
+?>
 <?php get_header(); ?>
 
-<div id="primary" class="content-area">
+<div id="primary" class="content-area full-width-content">
 	<main id="main" class="site-main" role="main">
 		<?php
 		// Start the loop.
@@ -20,6 +25,5 @@
 
 </div><!-- .content-area -->
 
-<?php get_sidebar(); ?>
 <?php get_sidebar( 'content-bottom' ); ?>
 <?php get_footer(); ?>

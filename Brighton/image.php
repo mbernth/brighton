@@ -1,13 +1,4 @@
-<?php
-/**
- * The template for displaying image attachments
- *
- * @package WordPress
- * @subpackage Brighton
- * @since Brighton 1.0
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

@@ -144,7 +144,7 @@ function brighton_widgets_init() {
 	) );
 
 	register_sidebar( array(
-		'name'          => __( 'Content Bottom 1', 'brighton' ),
+		'name'          => __( 'Footer area 1', 'brighton' ),
 		'id'            => 'sidebar-2',
 		'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'brighton' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -154,8 +154,18 @@ function brighton_widgets_init() {
 	) );
 
 	register_sidebar( array(
-		'name'          => __( 'Content Bottom 2', 'brighton' ),
+		'name'          => __( 'Footer area 2', 'brighton' ),
 		'id'            => 'sidebar-3',
+		'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'brighton' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+	
+	register_sidebar( array(
+		'name'          => __( 'Footer area 3', 'brighton' ),
+		'id'            => 'sidebar-4',
 		'description'   => __( 'Appears at the bottom of the content on posts and pages.', 'brighton' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
